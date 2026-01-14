@@ -136,7 +136,7 @@ export class GameManager {
             this.buttons.forEach(button => button.moveRandomly());
             count++;
 
-            if (count >= this.n) {
+            if (count >= 3) {
                 clearInterval(this.scrambleInterval);
                 this.scrambleInterval = null;
                 this.enableUserInteraction();
