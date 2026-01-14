@@ -1,6 +1,10 @@
 import { MESSAGES } from "../lang/messages/en/user.js";
 
 /**
+ * AI (Geimi) was used in this assignment as a partner to help with class structure
+ * and documentation.
+ * 
+ * 
  * Represents a clickable button in the game.
  * Each button has an order number and random color.
  */
