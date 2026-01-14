@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+#uiContainer {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#gameContainer {
+    position: relative; 
+    width: 100%;
+    min-height: 80vh;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+ button {
+    cursor: pointer;
+    font-size: 1em;
+    border: 1px solid #000;
+    transition: left 600ms cubic-bezier(.22, .9, .35, 1), top 600ms cubic-bezier(.22,.9,.35,1);
+    will-change: left, top;
+}
+
+
